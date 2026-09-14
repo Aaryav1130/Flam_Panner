@@ -46,6 +46,3 @@ All architecture decisions, error-handling strategies (AbortController/Zod valid
 - The drag-and-drop currently only supports reordering stops within their own day or moving stops to the very end of another day (full cross-list precision drop targets are a work-in-progress).
 - AI generation time is dependent on Gemini API latency.
 - Refinement loop ("edit this itinerary") is not yet implemented in this MVP.
-
-## Time Spent
-- ~4 hours (scaffolding, backend setup, UI design, drag-and-drop integration, error boundaries/schema validation).
